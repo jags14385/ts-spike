@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "jags",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@types/cucumber": "^2.0.4"
+  }
 }
