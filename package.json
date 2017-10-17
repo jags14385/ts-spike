@@ -1,0 +1,9 @@
+{
+  "name": "ts-spike",
+  "version": "1.0.0",
+  "description": "typescript cucumberjs spike",
+  "main": "index.js",
+  "author": "jags",
+  "license": "MIT",
+  "private": false
+}
