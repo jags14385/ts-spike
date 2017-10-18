@@ -23,10 +23,11 @@ Next Steps:
       for coding and then, ensure the structure is maintained in runtime
         - because then the code structure can be maintained independently of the
           runtime requirements. More flexibilty
-        - Is there a way I can use  "cucumberOpts" for it. 
+        - Is there a way I can use  "cucumberOpts" for it.
+    - Async support    
 
 One way to use the cli afer transpiling
 
--- ./node_modules/.bin/cucumber-js tmp/ --format-options '{"colorsEnabled": true}'
+    -- ./node_modules/.bin/cucumber-js tmp/ --format-options '{"colorsEnabled": true}'
 
 Can I use a file to specify the options ??
