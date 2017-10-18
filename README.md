@@ -24,3 +24,9 @@ Next Steps:
         - because then the code structure can be maintained independently of the
           runtime requirements. More flexibilty
         - Is there a way I can use  "cucumberOpts" for it. 
+
+One way to use the cli afer transpiling
+
+-- ./node_modules/.bin/cucumber-js tmp/ --format-options '{"colorsEnabled": true}'
+
+Can I use a file to specify the options ??
