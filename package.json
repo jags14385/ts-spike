@@ -14,5 +14,8 @@
   "scripts": {
     "pretest": "tsc && rm -r tmp && tsc && ./make.sh",
     "test": "./node_modules/.bin/cucumberjs tmp/"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

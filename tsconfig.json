@@ -17,6 +17,8 @@
     "removeComments": false,
     "rootDir": ".",
     "typeRoots": ["./node_modules/@types"],
-    "types": ["node", "cucumber"]
+    "types": ["node", "cucumber"],
+    "noUnusedParameters":true,
+    "noUnusedLocals":false
   }
 }

@@ -1,6 +1,6 @@
 import { defineSupportCode } from 'cucumber';
 
-defineSupportCode(({Given, When, Then}) => {
+defineSupportCode(({Given}) => {
 
     Given('A academic Item is created', () => {
         // Write code here that turns the phrase above into concrete actions

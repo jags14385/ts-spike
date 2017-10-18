@@ -1,1 +1,1 @@
-cp features/*.feature tmp/features/
+cp features/*.feature tmp/
