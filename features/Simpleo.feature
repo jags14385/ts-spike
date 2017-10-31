@@ -2,4 +2,4 @@
 Feature: Simple
 
 Scenario: Create
-    Given A academic Item is created
+    Given Print "65"
