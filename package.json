@@ -7,15 +7,11 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@types/cucumber": "^2.0.4",
-    "@types/node": "^8.0.44",
-    "cucumber": "^3.0.5"
+    "@types/jasmine": "^2.6.2",
+    "@types/node": "^8.0.44"
   },
   "scripts": {
     "pretest": "tsc && rm -r tmp && tsc && ./make.sh",
     "test": "./node_modules/.bin/cucumberjs tmp/"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1"
   }
 }

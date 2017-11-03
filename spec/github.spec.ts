@@ -1,4 +1,4 @@
-import {} from jasmine;
+import * from 'jasmine';
 
 describe("Github Spec", () => {
 
@@ -6,4 +6,4 @@ describe("Github Spec", () => {
     
     });
 
-  });
+});
