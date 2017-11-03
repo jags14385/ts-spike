@@ -1,1 +1,0 @@
-cp features/*.feature tmp/
