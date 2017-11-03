@@ -1,17 +1,18 @@
 {
   "name": "ts-spike",
   "version": "1.0.0",
-  "description": "typescript cucumberjs spike",
+  "description": "typescript jasmine spike",
   "main": "index.js",
   "author": "jags",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "@types/jasmine": "^2.6.2",
-    "@types/node": "^8.0.44"
+    "@types/node": "^8.0.44",
+    "jasmine": "^2.8.0"
   },
   "scripts": {
-    "pretest": "tsc && rm -r tmp && tsc && ./make.sh",
-    "test": "./node_modules/.bin/cucumberjs tmp/"
+    "pretest": "tsc && rm -r tmp && tsc",
+    "test": "./node_modules/.bin/jasmine tmp/"
   }
 }
