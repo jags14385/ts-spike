@@ -1,9 +1,9 @@
-import * from 'jasmine';
+import {} from 'jasmine';
 
 describe("Github Spec", () => {
 
-    beforeAll(() => {
-    
+    it('console',() => {
+        console.log(34);
     });
 
 });
